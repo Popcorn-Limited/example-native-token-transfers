@@ -1,46 +1,127 @@
 {
-  "network": "Testnet",
+  "network": "Mainnet",
   "chains": {
-    "ArbitrumSepolia": {
-      "version": "1.1.0",
-      "mode": "locking",
-      "paused": false,
-      "owner": "0x9bE75Bc132923847290677328b8FFB15d3081f2c",
-      "manager": "0x40B74aC60F4133b31F297767B455B4328d917809",
-      "token": "0x04661C1d878E36EFa44721B59911a3b8373efBCd",
-      "transceivers": {
-        "threshold": 1,
-        "wormhole": {
-          "address": "0xB4A9615DFB7F03Ed89f010E6a326B97407E9fdD8",
-          "pauser": "0x9bE75Bc132923847290677328b8FFB15d3081f2c"
-        }
-      },
-      "limits": {
-        "outbound": "184467440737.095516150000000000",
-        "inbound": {
-          "BaseSepolia": "184467440737.095516150000000000"
-        }
-      },
-      "pauser": "0x9bE75Bc132923847290677328b8FFB15d3081f2c"
-    },
-    "BaseSepolia": {
+    "Arbitrum": {
       "version": "1.1.0",
       "mode": "burning",
       "paused": false,
       "owner": "0x9bE75Bc132923847290677328b8FFB15d3081f2c",
-      "manager": "0x67eB307120D219d84d1a66a62016D396045F352b",
-      "token": "0x4BA04db16799d4Dfbc658d3E4cCC509F564a7eF5",
+      "manager": "0x0fa98307C08a4A832291767600ABaDb02209DF3f",
+      "token": "0xFeae6470A79b7779888f4a64af315Ca997D6cF33",
       "transceivers": {
         "threshold": 1,
         "wormhole": {
-          "address": "0xdc45bC110380759F6609564295247aBC9e91Ebf1",
+          "address": "0x8052D5245341F67a8033798987d5d4b323a0913A",
           "pauser": "0x9bE75Bc132923847290677328b8FFB15d3081f2c"
         }
       },
       "limits": {
-        "outbound": "184467440737.095516150000000000",
+        "outbound": "30.000000000000000000",
         "inbound": {
-          "ArbitrumSepolia": "184467440737.095516150000000000"
+          "Ethereum": "10.000000000000000000",
+          "Optimism": "10.000000000000000000",
+          "Base": "10.000000000000000000",
+          "Avalanche": "10.000000000000000000"
+        }
+      },
+      "pauser": "0x9bE75Bc132923847290677328b8FFB15d3081f2c"
+    },
+    "Ethereum": {
+      "version": "1.1.0",
+      "mode": "locking",
+      "paused": false,
+      "owner": "0x9bE75Bc132923847290677328b8FFB15d3081f2c",
+      "manager": "0xBfdc5171Cf63acE266aF9cA06DAD6301Ef6455d3",
+      "token": "0xcE246eEa10988C495B4A90a905Ee9237a0f91543",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0xBf238579EFc1Da2cE9E8d1237aAE37531C16B37a",
+          "pauser": "0x9bE75Bc132923847290677328b8FFB15d3081f2c"
+        }
+      },
+      "limits": {
+        "outbound": "30.000000000000000000",
+        "inbound": {
+          "Arbitrum": "10.000000000000000000",
+          "Optimism": "10.000000000000000000",
+          "Base": "10.000000000000000000",
+          "Avalanche": "10.000000000000000000"
+        }
+      },
+      "pauser": "0x9bE75Bc132923847290677328b8FFB15d3081f2c"
+    },
+    "Optimism": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x9bE75Bc132923847290677328b8FFB15d3081f2c",
+      "manager": "0xDafC709d84f5FE09546fD054220EA59b47517379",
+      "token": "0x43Ad2CFDDA3CEFf40d832eB9bc33eC3FACE86829",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0x0f5325Ea19504403fA543688bC84F9DC3327D78b",
+          "pauser": "0x9bE75Bc132923847290677328b8FFB15d3081f2c"
+        }
+      },
+      "limits": {
+        "outbound": "30.000000000000000000",
+        "inbound": {
+          "Arbitrum": "10.000000000000000000",
+          "Ethereum": "10.000000000000000000",
+          "Base": "10.000000000000000000",
+          "Avalanche": "10.000000000000000000"
+        }
+      },
+      "pauser": "0x9bE75Bc132923847290677328b8FFB15d3081f2c"
+    },
+    "Base": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x9bE75Bc132923847290677328b8FFB15d3081f2c",
+      "manager": "0xDafC709d84f5FE09546fD054220EA59b47517379",
+      "token": "0x43Ad2CFDDA3CEFf40d832eB9bc33eC3FACE86829",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0x0f5325Ea19504403fA543688bC84F9DC3327D78b",
+          "pauser": "0x9bE75Bc132923847290677328b8FFB15d3081f2c"
+        }
+      },
+      "limits": {
+        "outbound": "30.000000000000000000",
+        "inbound": {
+          "Arbitrum": "10.000000000000000000",
+          "Ethereum": "10.000000000000000000",
+          "Optimism": "10.000000000000000000",
+          "Avalanche": "10.000000000000000000"
+        }
+      },
+      "pauser": "0x9bE75Bc132923847290677328b8FFB15d3081f2c"
+    },
+    "Avalanche": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x9bE75Bc132923847290677328b8FFB15d3081f2c",
+      "manager": "0x30F64191353Db3f2135CAb366039c916BE38B598",
+      "token": "0x58890c4d6268CA329C9Ff626dc4Da07c1977Deb4",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0xdcA6fd78f1128F9593Af4c59e48FfEc177295654",
+          "pauser": "0x9bE75Bc132923847290677328b8FFB15d3081f2c"
+        }
+      },
+      "limits": {
+        "outbound": "30.000000000000000000",
+        "inbound": {
+          "Arbitrum": "10.000000000000000000",
+          "Ethereum": "10.000000000000000000",
+          "Optimism": "10.000000000000000000",
+          "Base": "10.000000000000000000"
         }
       },
       "pauser": "0x9bE75Bc132923847290677328b8FFB15d3081f2c"
