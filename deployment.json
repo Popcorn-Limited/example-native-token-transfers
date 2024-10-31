@@ -1,0 +1,130 @@
+{
+  "network": "Mainnet",
+  "chains": {
+    "Arbitrum": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278",
+      "manager": "0x0fa98307C08a4A832291767600ABaDb02209DF3f",
+      "token": "0xFeae6470A79b7779888f4a64af315Ca997D6cF33",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0x8052D5245341F67a8033798987d5d4b323a0913A",
+          "pauser": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278"
+        }
+      },
+      "limits": {
+        "outbound": "1000000.000000000000000000",
+        "inbound": {
+          "Ethereum": "1000000.000000000000000000",
+          "Optimism": "1000000.000000000000000000",
+          "Base": "1000000.000000000000000000",
+          "Avalanche": "1000000.000000000000000000"
+        }
+      },
+      "pauser": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278"
+    },
+    "Ethereum": {
+      "version": "1.1.0",
+      "mode": "locking",
+      "paused": false,
+      "owner": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278",
+      "manager": "0xBfdc5171Cf63acE266aF9cA06DAD6301Ef6455d3",
+      "token": "0xcE246eEa10988C495B4A90a905Ee9237a0f91543",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0xBf238579EFc1Da2cE9E8d1237aAE37531C16B37a",
+          "pauser": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278"
+        }
+      },
+      "limits": {
+        "outbound": "1000000.000000000000000000",
+        "inbound": {
+          "Arbitrum": "1000000.000000000000000000",
+          "Optimism": "1000000.000000000000000000",
+          "Base": "1000000.000000000000000000",
+          "Avalanche": "1000000.000000000000000000"
+        }
+      },
+      "pauser": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278"
+    },
+    "Optimism": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278",
+      "manager": "0xDafC709d84f5FE09546fD054220EA59b47517379",
+      "token": "0x43Ad2CFDDA3CEFf40d832eB9bc33eC3FACE86829",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0x0f5325Ea19504403fA543688bC84F9DC3327D78b",
+          "pauser": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278"
+        }
+      },
+      "limits": {
+        "outbound": "1000000.000000000000000000",
+        "inbound": {
+          "Arbitrum": "1000000.000000000000000000",
+          "Ethereum": "1000000.000000000000000000",
+          "Base": "1000000.000000000000000000",
+          "Avalanche": "1000000.000000000000000000"
+        }
+      },
+      "pauser": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278"
+    },
+    "Base": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278",
+      "manager": "0xDafC709d84f5FE09546fD054220EA59b47517379",
+      "token": "0x43Ad2CFDDA3CEFf40d832eB9bc33eC3FACE86829",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0x0f5325Ea19504403fA543688bC84F9DC3327D78b",
+          "pauser": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278"
+        }
+      },
+      "limits": {
+        "outbound": "1000000.000000000000000000",
+        "inbound": {
+          "Arbitrum": "1000000.000000000000000000",
+          "Ethereum": "1000000.000000000000000000",
+          "Optimism": "1000000.000000000000000000",
+          "Avalanche": "1000000.000000000000000000"
+        }
+      },
+      "pauser": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278"
+    },
+    "Avalanche": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278",
+      "manager": "0x30F64191353Db3f2135CAb366039c916BE38B598",
+      "token": "0x58890c4d6268CA329C9Ff626dc4Da07c1977Deb4",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0xdcA6fd78f1128F9593Af4c59e48FfEc177295654",
+          "pauser": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278"
+        }
+      },
+      "limits": {
+        "outbound": "1000000.000000000000000000",
+        "inbound": {
+          "Arbitrum": "1000000.000000000000000000",
+          "Ethereum": "1000000.000000000000000000",
+          "Optimism": "1000000.000000000000000000",
+          "Base": "1000000.000000000000000000"
+        }
+      },
+      "pauser": "0x2C3B135cd7dc6C673b358BEF214843DAb3464278"
+    }
+  }
+}
